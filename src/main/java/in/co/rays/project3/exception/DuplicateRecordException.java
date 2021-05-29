@@ -1,0 +1,16 @@
+package in.co.rays.project3.exception;
+
+/**
+* DuplicateRecordException thrown when a duplicate record occurred
+*
+* @author Damini
+* @version 1.0
+* @Copyright (c) SUNRAYS Technologies
+*
+*/
+
+public class DuplicateRecordException extends Exception {
+public DuplicateRecordException(String msg){
+	super();
+}
+}
